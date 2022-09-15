@@ -287,6 +287,7 @@
         [_currentPath drawInContext:_drawingContext];
     }
     _currentPath = nil;
+     [self notifyPathsUpdate];
 }
 
 - (void) clear {
